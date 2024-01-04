@@ -31,5 +31,38 @@ let booleanisLoggedIn = Boolean(isLoggedIn);
 let someNumber = 33;
 
 let ConvertString = String(someNumber);
-console.log(ConvertString);
-console.log(typeof ConvertString);
+// console.log(ConvertString);
+// console.log(typeof ConvertString);
+
+// ******************************* Operations ***********************************
+
+let value = 5;
+let negValue = -value;
+//console.log(negValue);
+
+// concatination
+
+let str1 = "hello";
+let str2 = " sorry";
+let str3 = str1 + str2;
+// console.log(str3);
+
+// console.log("1" + 2); //12
+// console.log(1 + "2"); //12
+// console.log("1" + "2"); //12
+// console.log("1" + 2 + 2); //122
+// console.log(1 + 2 + "2"); //32
+
+/* in the last and 2nd last operations we have seen that tha ouptputs
+are different this is because of the conventions of the ecma script */
+
+console.log(+true);
+console.log(+"");
+
+let num1, num2, num3;
+
+num1 = num2 = num3 = 2 + 2;
+
+let gameCounter = 100;
+gameCounter++;
+console.log(gameCounter);
